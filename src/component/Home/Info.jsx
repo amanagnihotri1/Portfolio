@@ -24,10 +24,10 @@ export const Info = () => {
     <div className='about__box'>
     <i class='bx bx-support about_icon' ></i>
     <h3 className='about__title'>
-     Support
+     Worked on
      </h3>
      <span className='about__subtitle'>
-      24/7
+     MERN stack
      </span>
     </div>
     </div>
