@@ -28,13 +28,13 @@ export const Footer = () => {
       </li>  
     </ul>
     <div className='footer__social'>
-    <a href='' className='home__social-icon' target='_blank'>
+    <a href='https://twitter.com/XEGOatyoutube' className='home__social-icon' target='_blank'>
     <i class="bx bxl-twitter"></i>
     </a>
-    <a href='' className='home__social-icon' target='_blank'>
+    <a href='https://github.com/amanagnihotri1' className='home__social-icon' target='_blank'>
     <i class="bx bxl-github"></i>
     </a>
-    <a href='' className='home__social-icon' target='_blank'>
+    <a href='https://www.linkedin.com/in/aman-agnihotri-818102192/' className='home__social-icon' target='_blank'>
     <i class='bx bxl-linkedin'></i>
     </a>  
     </div>
