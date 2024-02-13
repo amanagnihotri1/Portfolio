@@ -1,0 +1,83 @@
+.project__container
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0px auto;
+    justify-content:baseline;
+    gap: 20px;
+}
+.project__tray
+{
+    display: flex;
+    position: absolute;
+    bottom: -50px;
+    z-index: 10;
+    box-shadow:
+  0px 0px 6.8px rgba(0, 0, 0, 0.022),
+  0px 0px 17.2px rgba(0, 0, 0, 0.031),
+  0px 0px 35.1px rgba(0, 0, 0, 0.039),
+  0px 0px 72.3px rgba(0, 0, 0, 0.048),
+  0px 0px 198px rgba(0, 0, 0, 0.07)
+;
+   border-radius: 8px;
+    flex-wrap: wrap;
+    opacity: 0;
+    justify-content: space-around;
+    width: 87%;
+    margin: 0 auto;
+    height: 45px;
+    background-color:#fff;  
+    transition: all ease-in-out 0.2s;
+}
+.project__main:hover>.project__tray
+{
+    opacity: 1;
+    border-radius: 8px;
+    bottom: 10px;
+    z-index: 100;
+    margin: 0 auto;
+    height: 40px;
+    width: 87%;
+}
+.project__main
+{
+   width: 420px;
+   display: flex;
+   padding: 20px 20px;
+   flex-direction: column;
+   position: relative;
+   height: 280px;
+   background-color: #fff;
+   border:1px solid rgba(0,0,0,0.1);
+   border-radius: 8px;
+img
+{
+    display: block;
+    width: 20%;
+    height: 20%;
+    border-radius: 8px;
+    object-fit: contain;
+    z-index: 20;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.title
+{
+  display: block;
+  color: #000;
+} 
+}
+.techstack__tech
+{
+    color: #494848;
+    font-weight: 500;
+    display: inline;
+    font-size: 0.825rem;
+    padding: 0 3px;
+    overflow-wrap:break-word;
+} 
+.text__desc
+{
+    font-size: 0.825rem;
+    margin:4px auto;
+}
