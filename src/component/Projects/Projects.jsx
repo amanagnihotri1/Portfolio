@@ -19,10 +19,10 @@ export const Projects = () => {
     ))} 
     </div>
     <div className='project__tray'>
-    <a href={item.githubLink} className='home__social-icon' target='_blank'>
+    <a href={item.githubLink} className='home__social-icon' target='_blank' rel="noreferrer">
     <i class='bx bxl-github'></i>
     </a>
-    <a href={item.deployedLink} className='home__social-icon' target='_blank'>
+    <a href={item.deployedLink} className='home__social-icon' target='_blank' rel="noreferrer">
     <i class='bx bx-link'></i>  
     </a>
     </div>    
